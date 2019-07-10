@@ -10,7 +10,7 @@ class User extends Model {
 	const SESSION = "User";
 
 	protected $fields = [
-		"desperson", "deslogin", "despassword", "desemail", "nrphone", "inadmin"
+		"desperson", "deslogin", "despassword", "desemail", "nrphone", "inadmin", "iduser"
 	];
 
 	public static function login($login, $password):User
